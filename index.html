@@ -1,46 +1,36 @@
+<!-- dashboard.html -->
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="Viewport" content="width=device-width, initial-scale=1.0">
-        <Link rel="stylesheet" href="style.css"/>
-        <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
-        <link href='https://cdn.boxicons.com/fonts/brands/boxicons-brands.min.css' rel='stylesheet'>
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="dashboard.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Limelight&family=Merienda:wght@300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+AU+QLD:wght@100..400&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
-
-        <title>AGATHA</title>
-    </head>
-
+</head>
 <body>
-    <div class="Login-container">
+  <nav class="sidebar">
+    <h2> Dashboard</h2>
+    <ul>
+      <li><a href="#"><i class="fas fa-Home"></i> Home</a></li>
+      <li><a href="#"><i class="fas fa-Users"></i> Users</a></li>
+      <li><a href="#"><i class="fas fa-Search"></i> Search</a></li>
+      <li><a href="#"><i class="fas fa-Notifications"></i> Notifications</a></li>
+      <li><a href="#"><i class="fas fa-Help/Support"></i> Help/Support</a></li>
+      <li><a href="login.html"><i class="fas fa-sign-out-alt"></i> Logout</a></li>
+    </ul>
+  </nav>
 
-        <h2>Welcome back</h2>
-
-        <p>Please enter your details.</p>
-
-        <form id="Loginform">
-
-            <label for="email">Email:</label>
-            <input type="email" id="email" placeholder="Enter your email" required />
-
-            <label for="password">Password:</label>
-            <input type="password" id="password" placeholder="Enter password" required />
-
-            <div class="options">
-                <label> <input type="checkbox"/>Remamber me</label>
-                <a href="#">Forget password?</a>
-            </div>
-
-            <button type="submit" class="Signin-btn">Sign in</button>
-            <button class="goggle-btn">Sign in with Goggle</button>
-        </form>
-        <p class="Signup-link">Don't have an account? <a href=signup.html>Sign up</a></p>
-    </div>
-    
-    <script src="script. js"></script>
-</body> 
+  <main class="content">
+    <header>
+      <h1>Welcome, VIVIAN </h1>
+    </header>
+    <section class="cards">
+      <div class="card">📊 Total Users: 50</div>
+      <div class="card">💬 Messages: 20</div>
+      <div class="card">⚙ Settings Updated: 2</div>
+    </section>
+  </main>
+</body>
 </html>
+
