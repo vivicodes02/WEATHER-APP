@@ -6,9 +6,9 @@ body {
 
 .sidebar {
   width: 200px;
-  background: #2c3e50;
-  color: white;
-  padding: 20px;
+  background: plum;
+  color: black;
+  padding: 18px;
   height: 100vh;
 }
 
@@ -22,7 +22,7 @@ body {
 }
 
 .sidebar ul li a {
-  color: white;
+  color: black;
   text-decoration: none;
   display: block;
   margin: 10px 0;
@@ -31,7 +31,7 @@ body {
 .content {
   flex: 1;
   padding: 20px;
-  background: #ecf0f1;
+  background: lavendarblush;
 }
 
 header h1 {
@@ -39,16 +39,17 @@ header h1 {
 }
 
 .cards {
-  display: flex;
-  gap: 20px;
+  display: -webkit-inline-flex;
+  gap: 18px;
 }
 
 .card {
-  background: white;
-  padding: 20px;
-  border-radius: 8px;
+  background: plum;
+  padding: 18px;
+  border-radius: 10px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  flex: 1;
+  flex: 4;
 }
+
 
 
